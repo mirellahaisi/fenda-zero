@@ -214,6 +214,7 @@ function restartGame() {
     startTime = Date.now();
     fendaInterval = 1000;
     document.querySelector("button").remove();
+    spawnFendas();
     gameLoop();
 }
 
